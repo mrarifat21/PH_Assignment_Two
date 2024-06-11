@@ -1,0 +1,508 @@
+
+@media only screen and (max-width: 600px) {
+
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+    
+    /* conrainer width */
+    .container{
+        width: 95%;
+    }
+    /* =====================================Header Area Start===================================== */
+.header_area{
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 80px;
+    
+}
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main_menu ul li a{
+    padding: 10px 10px; 
+    font-weight: bold;
+    color: #000;
+    transition: 0.3s;
+}
+.main_menu ul li a:hover{
+    color: #f48e28;
+}
+.search {
+    display: none;
+}
+.search_wrapper {
+    display: none;
+}
+
+  /* hero left */
+.hero_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.hero_left{
+    width: 100%;
+}
+.hero_left h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+br{
+    display: none;
+}
+.hero_area p {
+    margin: 20px 0;
+}
+
+.herobtn{
+    justify-content: start;
+}
+.herobtn img {
+    width: 50px;
+}
+.herobtn .ordbtn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.herobtn .opbtn{
+    font-size: 16px;
+}
+
+
+/* hero right */
+.hero_rigth {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.fooditem img {
+    margin-bottom: -50px;
+    width: 200px;
+}
+
+
+
+
+/* =====================================Header Area End===================================== */
+    /* =====================================GetINTouch Area Start===================================== */
+    .address_wrapper{
+        flex-direction: column;
+    }
+    .single_card{
+        width: 100%;
+        padding: 25px 0;
+    }
+    .icon {
+        margin-bottom:5px;
+    }
+    
+    .address_wrapper p{
+        font-weight: 700;  
+    }
+    .cborder{
+        border: 1px solid #B6B6B6;
+        border-left: none;
+        border-right: none;
+    }
+    
+    
+    /* =====================================GetINTouch Area End===================================== */
+
+    /* =====================================Product Area Start=====================================  */
+
+.product_area{
+    margin: 40px 0;
+}
+.all_products{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.all_products h4{
+    font-size: 20px;
+}
+.all_products .price{
+    font-size: 15px;
+}
+.seemorebtn button{
+    margin: 30px auto;
+}
+
+/* =====================================Product Area End=====================================  */
+/* =====================================Services Area Start===================================== */
+
+.all_services{
+    flex-direction: column;
+
+}
+.service{
+    width: 100%; 
+}
+
+.service h4{
+    font-size: 20px;
+
+}
+
+/* =====================================Services Area End===================================== */
+
+
+/* =====================================Testimonials Area Start===================================== */
+.testimonials_area{
+    margin: 100px 0;
+}
+
+.testimonial_card{
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+.testimonial_left{
+    width: 100%;
+}
+
+.testimonial_left .clien {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+.testimonial_left .clien h4{
+    font-size: 15px;
+}
+.testimonial_left .clien p{
+    font-size: 10px;
+}
+.testimonial_right{
+    width: 100%;
+}
+
+/* =====================================Testimonials Area End===================================== */
+
+/* =====================================Newsletter Area Start===================================== */
+
+.letter_wrapper{
+    flex-direction: column;
+    padding: 30px;
+}
+.letter_left{
+    width: 100%;
+}
+.letter_right{
+    width:100%;
+}
+.letter_wrapper h4{
+    font-size: 30px;
+}
+.letter_wrapper p{
+    font-size: 20px;
+    padding: 0;
+    margin-top: 10px;
+}
+.letter_wrapper .btndiv {
+    margin-top: 20px;
+    width: 100%;
+    
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* =====================================Newsletter Area End===================================== */
+
+/* =====================================Footer Area Start===================================== */
+
+.footer_wrapper{
+    flex-direction: column;
+    text-align: center;
+    
+}
+.footer_logo img{
+    margin-bottom: 20px;
+}
+.footer_logo p{
+    width:100%;
+}
+.footer_wrapper h4{
+    margin-top: 35px;
+    margin-bottom: 0; 
+    font-size: 20px;
+}
+.footer_wrapper p, a {
+    color: #B6B6B6;
+    font-size: 15px;
+    margin:5px 0;
+}
+
+.ficon_wrap{
+    justify-content: center;
+}
+
+/* =====================================Footer Area End===================================== */
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    h2{
+        font-size: 25px;
+        font-weight: bold;
+        color:#000000 ;
+    
+    }
+    h3{
+        font-size: 15px;
+        color:#f48e28;
+        font-weight: lighter;
+        text-align: center;
+    
+    }
+    p{
+        font-size: 15px;
+    }
+    
+    /* conrainer width */
+    .container{
+        width: 95%;
+    }
+    
+/* =====================================Header Area Start===================================== */
+.header_area{
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 80px;
+    
+}
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main_menu ul li a{
+    padding: 10px 10px; 
+    font-weight: bold;
+    color: #000;
+    transition: 0.3s;
+}
+.main_menu ul li a:hover{
+    color: #f48e28;
+}
+.search {
+    display: none;
+}
+.search_wrapper {
+    display: none;
+}
+
+  /* hero left */
+.hero_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.hero_left{
+    width: 100%;
+}
+.hero_left h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+br{
+    display: none;
+}
+.hero_area p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.herobtn{
+    justify-content: start;
+}
+.herobtn img {
+    width: 50px;
+}
+.herobtn .ordbtn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.herobtn .opbtn{
+    font-size: 20px;
+}
+
+
+/* hero right */
+.hero_rigth {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.fooditem img {
+    margin-bottom: -50px;
+    width: 200px;
+}
+
+
+
+
+/* =====================================Header Area End===================================== */
+
+/* =====================================GetINTouch Area Start===================================== */
+    .single_card{
+        /* width: 100%; */
+        padding: 0px 10px;
+    }
+    .icon {
+        margin-bottom:5px;
+    }
+    
+    .address_wrapper p{
+        font-weight: 700;  
+    }
+    .card_desc p {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+
+/* =====================================GetINTouch Area End===================================== */
+
+/* =====================================Product Area Start=====================================  */
+
+.product_area{
+    margin: 100px 0;
+}
+.all_products{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.all_products h4{
+    font-size: 22px;
+
+}
+
+.all_products .price{
+    font-size: 15px;
+
+}
+.seemorebtn button{
+    margin: 30px auto;
+}
+
+/* =====================================Product Area End=====================================  */
+
+
+/* =====================================Services Area Start===================================== */
+
+.all_services{
+    flex-direction: column;
+
+}
+.service{
+    width: 80%; 
+}
+
+.service h4{
+    font-size: 20px;
+
+}
+
+/* =====================================Services Area End===================================== */
+
+/* =====================================Newsletter Area Start===================================== */
+
+.letter_wrapper{
+    flex-direction: column;
+    padding: 30px;
+}
+.letter_left{
+    width: 100%;
+}
+.letter_right{
+    width:100%;
+}
+.letter_wrapper h4{
+    font-size: 30px;
+}
+.letter_wrapper p{
+    font-size: 20px;
+    padding: 0;
+    margin-top: 10px;
+}
+.letter_wrapper .btndiv {
+    margin-top: 20px;
+    width: 100%;
+    
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* =====================================Newsletter Area End===================================== */
+
+/* =====================================Footer Area Start===================================== */
+.footer_wrapper{
+    flex-direction: column;
+    text-align: center;
+    
+}
+.footer_logo img{
+    margin-bottom: 20px;
+}
+.footer_logo p{
+    width:100%;
+}
+.footer_wrapper h4{
+    margin-top: 35px;
+    margin-bottom: 0; 
+    font-size: 20px;
+}
+.footer_wrapper p, a {
+    color: #B6B6B6;
+    font-size: 15px;
+    margin:5px 0;
+}
+
+.ficon_wrap{
+    justify-content: center;
+}
+
+/* =====================================Footer Area End===================================== */
+
+
+}
+
+
+
+
